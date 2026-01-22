@@ -1,0 +1,1122 @@
+<!DOCTYPE html>
+<!-- saved from url=(0081)https://www.kimi.com/artifact/19b759e4-fdc2-82a9-8000-04c3ba34e3a2?version=F5LX2I -->
+<html lang="zh-CN"><plasmo-csui><template shadowrootmode="open"><div id="plasmo-shadow-container" style="z-index: 2147483647; position: relative;"><div id="plasmo-overlay-0" class="plasmo-csui-container" style="display: flex; position: absolute; top: 0px; left: 0px;"></div></div></template></plasmo-csui><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>伪心理学：认知陷阱</title>
+    <script src="https://cdn.tailwindcss.com/"></script>
+    <link href="./伪心理学：认知陷阱_files/css2" rel="stylesheet">
+    <link rel="stylesheet" href="./伪心理学：认知陷阱_files/all.min.css">
+    <style>
+        :root {
+            --primary: #8B6F47;
+            --secondary: #D4C4A8;
+            --accent: #A68B5B;
+            --neutral: #F5F2ED;
+            --base: #FEFCF8;
+            --info: #4A6FA5;
+            --success: #6B8E23;
+            --warning: #D4A574;
+            --error: #A0522D;
+        }
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            background: var(--base);
+            color: #2C2C2C;
+            line-height: 1.7;
+        }
+        
+        .tiempos {
+            font-family: 'Tiempos Headline', serif;
+        }
+        
+        .hero-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 2rem;
+            align-items: center;
+        }
+        
+        .bento-card {
+            background: var(--neutral);
+            border-radius: 16px;
+            padding: 2rem;
+            border: 1px solid var(--secondary);
+        }
+        
+        .toc-fixed {
+            position: fixed;
+            left: 2rem;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 280px;
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border-radius: 12px;
+            padding: 1.5rem;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+            border: 1px solid var(--secondary);
+            z-index: 1000;
+            max-height: 70vh;
+            overflow-y: auto;
+        }
+        
+        .content-main {
+            margin-left: 340px;
+            margin-right: 2rem;
+        }
+        
+        .section-divider {
+            height: 2px;
+            background: linear-gradient(90deg, var(--primary), var(--secondary), transparent);
+            margin: 4rem 0;
+        }
+        
+        .highlight-box {
+            background: linear-gradient(135deg, var(--neutral), #F5F2ED);
+            border-left: 4px solid var(--primary);
+            padding: 1.5rem;
+            margin: 2rem 0;
+            border-radius: 8px;
+        }
+        
+        .citation-link {
+            color: var(--info);
+            text-decoration: none;
+            font-weight: 500;
+            border-bottom: 1px dotted var(--info);
+        }
+        
+        .citation-link:hover {
+            background: rgba(74, 111, 165, 0.1);
+            padding: 2px 4px;
+            border-radius: 4px;
+        }
+        
+        @media (max-width: 1200px) {
+            .toc-fixed {
+                display: none;
+            }
+            .content-main {
+                margin-left: 2rem;
+            }
+            .hero-grid {
+                grid-template-columns: 1fr;
+                gap: 1rem;
+            }
+        }
+
+        /* Responsive adjustments for small screens */
+        @media (max-width: 768px) {
+            .content-main {
+                margin-left: 1rem;
+                margin-right: 1rem;
+            }
+            .hero-grid, .bento-card, .highlight-box, .section-divider {
+                margin-left: 0 !important;
+                margin-right: 0 !important;
+            }
+            .hero-grid h1 {
+                font-size: 2.5rem;
+            }
+            .hero-grid p {
+                font-size: 1rem;
+            }
+            .hero-grid img {
+                height: auto;
+                max-height: 300px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .hero-grid h1 {
+                font-size: 2rem;
+            }
+            .bento-card {
+                padding: 1.5rem;
+            }
+        }
+    </style>
+  <style>*, ::before, ::after{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }/* ! tailwindcss v3.4.17 | MIT License | https://tailwindcss.com */*,::after,::before{box-sizing:border-box;border-width:0;border-style:solid;border-color:#e5e7eb}::after,::before{--tw-content:''}:host,html{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;tab-size:4;font-family:ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";font-feature-settings:normal;font-variation-settings:normal;-webkit-tap-highlight-color:transparent}body{margin:0;line-height:inherit}hr{height:0;color:inherit;border-top-width:1px}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;font-feature-settings:normal;font-variation-settings:normal;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit;border-collapse:collapse}button,input,optgroup,select,textarea{font-family:inherit;font-feature-settings:inherit;font-variation-settings:inherit;font-size:100%;font-weight:inherit;line-height:inherit;letter-spacing:inherit;color:inherit;margin:0;padding:0}button,select{text-transform:none}button,input:where([type=button]),input:where([type=reset]),input:where([type=submit]){-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0;padding:0}legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}dialog{padding:0}textarea{resize:vertical}input::placeholder,textarea::placeholder{opacity:1;color:#9ca3af}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{max-width:100%;height:auto}[hidden]:where(:not([hidden=until-found])){display:none}.absolute{position:absolute}.relative{position:relative}.inset-0{inset:0px}.bottom-0{bottom:0px}.left-0{left:0px}.left-4{left:1rem}.top-0{top:0px}.mb-12{margin-bottom:3rem}.mb-16{margin-bottom:4rem}.mb-2{margin-bottom:0.5rem}.mb-3{margin-bottom:0.75rem}.mb-4{margin-bottom:1rem}.mb-6{margin-bottom:1.5rem}.mb-8{margin-bottom:2rem}.ml-12{margin-left:3rem}.mr-1{margin-right:0.25rem}.mr-2{margin-right:0.5rem}.mt-12{margin-top:3rem}.mt-2{margin-top:0.5rem}.mt-4{margin-top:1rem}.mt-8{margin-top:2rem}.block{display:block}.flex{display:flex}.inline-flex{display:inline-flex}.grid{display:grid}.h-64{height:16rem}.h-8{height:2rem}.h-80{height:20rem}.w-0\.5{width:0.125rem}.w-8{width:2rem}.w-full{width:100%}.list-inside{list-style-position:inside}.list-decimal{list-style-type:decimal}.list-disc{list-style-type:disc}.grid-cols-1{grid-template-columns:repeat(1, minmax(0, 1fr))}.grid-cols-2{grid-template-columns:repeat(2, minmax(0, 1fr))}.items-center{align-items:center}.justify-center{justify-content:center}.gap-4{gap:1rem}.gap-6{gap:1.5rem}.gap-8{gap:2rem}.space-x-4 > :not([hidden]) ~ :not([hidden]){--tw-space-x-reverse:0;margin-right:calc(1rem * var(--tw-space-x-reverse));margin-left:calc(1rem * calc(1 - var(--tw-space-x-reverse)))}.space-x-6 > :not([hidden]) ~ :not([hidden]){--tw-space-x-reverse:0;margin-right:calc(1.5rem * var(--tw-space-x-reverse));margin-left:calc(1.5rem * calc(1 - var(--tw-space-x-reverse)))}.space-y-1 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(0.25rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(0.25rem * var(--tw-space-y-reverse))}.space-y-2 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(0.5rem * var(--tw-space-y-reverse))}.space-y-6 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(1.5rem * var(--tw-space-y-reverse))}.divide-y > :not([hidden]) ~ :not([hidden]){--tw-divide-y-reverse:0;border-top-width:calc(1px * calc(1 - var(--tw-divide-y-reverse)));border-bottom-width:calc(1px * var(--tw-divide-y-reverse))}.divide-gray-200 > :not([hidden]) ~ :not([hidden]){--tw-divide-opacity:1;border-color:rgb(229 231 235 / var(--tw-divide-opacity, 1))}.overflow-x-auto{overflow-x:auto}.rounded{border-radius:0.25rem}.rounded-2xl{border-radius:1rem}.rounded-full{border-radius:9999px}.rounded-lg{border-radius:0.5rem}.rounded-xl{border-radius:0.75rem}.border{border-width:1px}.border-l-4{border-left-width:4px}.border-gray-200{--tw-border-opacity:1;border-color:rgb(229 231 235 / var(--tw-border-opacity, 1))}.border-yellow-400{--tw-border-opacity:1;border-color:rgb(250 204 21 / var(--tw-border-opacity, 1))}.bg-blue-50{--tw-bg-opacity:1;background-color:rgb(239 246 255 / var(--tw-bg-opacity, 1))}.bg-gray-50{--tw-bg-opacity:1;background-color:rgb(249 250 251 / var(--tw-bg-opacity, 1))}.bg-green-50{--tw-bg-opacity:1;background-color:rgb(240 253 244 / var(--tw-bg-opacity, 1))}.bg-purple-50{--tw-bg-opacity:1;background-color:rgb(250 245 255 / var(--tw-bg-opacity, 1))}.bg-white{--tw-bg-opacity:1;background-color:rgb(255 255 255 / var(--tw-bg-opacity, 1))}.bg-yellow-50{--tw-bg-opacity:1;background-color:rgb(254 252 232 / var(--tw-bg-opacity, 1))}.bg-gradient-to-b{background-image:linear-gradient(to bottom, var(--tw-gradient-stops))}.bg-gradient-to-r{background-image:linear-gradient(to right, var(--tw-gradient-stops))}.bg-gradient-to-t{background-image:linear-gradient(to top, var(--tw-gradient-stops))}.from-black\/20{--tw-gradient-from:rgb(0 0 0 / 0.2) var(--tw-gradient-from-position);--tw-gradient-to:rgb(0 0 0 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-black\/30{--tw-gradient-from:rgb(0 0 0 / 0.3) var(--tw-gradient-from-position);--tw-gradient-to:rgb(0 0 0 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-blue-50{--tw-gradient-from:#eff6ff var(--tw-gradient-from-position);--tw-gradient-to:rgb(239 246 255 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.to-purple-50{--tw-gradient-to:#faf5ff var(--tw-gradient-to-position)}.to-transparent{--tw-gradient-to:transparent var(--tw-gradient-to-position)}.object-cover{object-fit:cover}.p-3{padding:0.75rem}.p-4{padding:1rem}.p-6{padding:1.5rem}.px-6{padding-left:1.5rem;padding-right:1.5rem}.px-8{padding-left:2rem;padding-right:2rem}.py-16{padding-top:4rem;padding-bottom:4rem}.py-4{padding-top:1rem;padding-bottom:1rem}.py-8{padding-top:2rem;padding-bottom:2rem}.text-left{text-align:left}.text-center{text-align:center}.text-2xl{font-size:1.5rem;line-height:2rem}.text-3xl{font-size:1.875rem;line-height:2.25rem}.text-4xl{font-size:2.25rem;line-height:2.5rem}.text-5xl{font-size:3rem;line-height:1}.text-lg{font-size:1.125rem;line-height:1.75rem}.text-sm{font-size:0.875rem;line-height:1.25rem}.text-xl{font-size:1.25rem;line-height:1.75rem}.text-xs{font-size:0.75rem;line-height:1rem}.font-bold{font-weight:700}.font-medium{font-weight:500}.italic{font-style:italic}.leading-relaxed{line-height:1.625}.leading-tight{line-height:1.25}.text-blue-500{--tw-text-opacity:1;color:rgb(59 130 246 / var(--tw-text-opacity, 1))}.text-gray-500{--tw-text-opacity:1;color:rgb(107 114 128 / var(--tw-text-opacity, 1))}.text-gray-600{--tw-text-opacity:1;color:rgb(75 85 99 / var(--tw-text-opacity, 1))}.text-gray-700{--tw-text-opacity:1;color:rgb(55 65 81 / var(--tw-text-opacity, 1))}.text-gray-900{--tw-text-opacity:1;color:rgb(17 24 39 / var(--tw-text-opacity, 1))}.text-green-500{--tw-text-opacity:1;color:rgb(34 197 94 / var(--tw-text-opacity, 1))}.text-purple-500{--tw-text-opacity:1;color:rgb(168 85 247 / var(--tw-text-opacity, 1))}.text-red-500{--tw-text-opacity:1;color:rgb(239 68 68 / var(--tw-text-opacity, 1))}.text-white{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity, 1))}.text-yellow-500{--tw-text-opacity:1;color:rgb(234 179 8 / var(--tw-text-opacity, 1))}.shadow-2xl{--tw-shadow:0 25px 50px -12px rgb(0 0 0 / 0.25);--tw-shadow-colored:0 25px 50px -12px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-lg{--tw-shadow:0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-sm{--tw-shadow:0 1px 2px 0 rgb(0 0 0 / 0.05);--tw-shadow-colored:0 1px 2px 0 var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.transition-colors{transition-property:color, background-color, border-color, fill, stroke, -webkit-text-decoration-color;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke, -webkit-text-decoration-color;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}@media (min-width: 768px){.md\:grid-cols-2{grid-template-columns:repeat(2, minmax(0, 1fr))}.md\:grid-cols-3{grid-template-columns:repeat(3, minmax(0, 1fr))}.md\:grid-cols-4{grid-template-columns:repeat(4, minmax(0, 1fr))}}</style></head>
+
+  <body>
+    <!-- Fixed Table of Contents -->
+    <div class="toc-fixed">
+      <h3 class="tiempos text-lg font-bold mb-4" style="color: var(--primary);">目录</h3>
+      <nav class="space-y-2">
+        <a href="https://www.kimi.com/artifact/19b759e4-fdc2-82a9-8000-04c3ba34e3a2?version=F5LX2I#introduction" class="block text-sm hover:text-primary transition-colors">引言</a>
+        <a href="https://www.kimi.com/artifact/19b759e4-fdc2-82a9-8000-04c3ba34e3a2?version=F5LX2I#history" class="block text-sm hover:text-primary transition-colors">历史脉络</a>
+        <a href="https://www.kimi.com/artifact/19b759e4-fdc2-82a9-8000-04c3ba34e3a2?version=F5LX2I#mechanisms" class="block text-sm hover:text-primary transition-colors">典型套路</a>
+        <a href="https://www.kimi.com/artifact/19b759e4-fdc2-82a9-8000-04c3ba34e3a2?version=F5LX2I#critical-thinking" class="block text-sm hover:text-primary transition-colors">批判性思维</a>
+        <a href="https://www.kimi.com/artifact/19b759e4-fdc2-82a9-8000-04c3ba34e3a2?version=F5LX2I#transmission" class="block text-sm hover:text-primary transition-colors">传播特征</a>
+        <a href="https://www.kimi.com/artifact/19b759e4-fdc2-82a9-8000-04c3ba34e3a2?version=F5LX2I#analysis" class="block text-sm hover:text-primary transition-colors">多学科分析</a>
+        <a href="https://www.kimi.com/artifact/19b759e4-fdc2-82a9-8000-04c3ba34e3a2?version=F5LX2I#action" class="block text-sm hover:text-primary transition-colors">应对策略</a>
+        <a href="https://www.kimi.com/artifact/19b759e4-fdc2-82a9-8000-04c3ba34e3a2?version=F5LX2I#conclusion" class="block text-sm hover:text-primary transition-colors">结论</a>
+      </nav>
+    </div>
+
+    <!-- Main Content -->
+    <div class="content-main">
+      <!-- Hero Section -->
+      <section class="py-16">
+        <div class="hero-grid mb-12">
+          <div class="space-y-6">
+            <h1 class="tiempos text-5xl font-bold leading-tight" style="color: var(--primary);">
+              伪心理学：
+              <br>
+              <em class="text-4xl" style="color: var(--accent);">认知陷阱的千年迷局</em>
+            </h1>
+            <p class="text-xl text-gray-600 leading-relaxed">
+              当心理学披上伪科学的外衣，我们如何识别那些精心编织的认知陷阱？
+            </p>
+            <div class="flex items-center space-x-6 text-sm text-gray-500">
+              <span><i class="fas fa-brain mr-2"></i>心理学分析</span>
+              <span><i class="fas fa-microscope mr-2"></i>科学哲学</span>
+              <span><i class="fas fa-share-alt mr-2"></i>传播学视角</span>
+            </div>
+          </div>
+          <div class="relative">
+            <img src="./伪心理学：认知陷阱_files/60fd475574406169409031d629362642707864dd.jpg" alt="心理学实验室中大脑研究的抽象概念图" class="w-full h-80 object-cover rounded-2xl shadow-2xl" size="medium" aspect="wide" query="心理学实验室 大脑研究 抽象" referrerpolicy="no-referrer" data-modified="1" data-score="0.00">
+            <div class="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent rounded-2xl"></div>
+          </div>
+        </div>
+
+        <!-- Key Highlights Grid -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
+          <div class="bento-card">
+            <i class="fas fa-eye text-2xl mb-3" style="color: var(--primary);"></i>
+            <h3 class="tiempos text-lg font-bold mb-2">识破伪装</h3>
+            <p class="text-sm text-gray-600">从颅相学到量子心理学，伪科学如何借科学之名行欺骗之实</p>
+          </div>
+          <div class="bento-card">
+            <i class="fas fa-network-wired text-2xl mb-3" style="color: var(--accent);"></i>
+            <h3 class="tiempos text-lg font-bold mb-2">传播机制</h3>
+            <p class="text-sm text-gray-600">社交媒体算法如何助推伪心理学的病毒式扩散</p>
+          </div>
+          <div class="bento-card">
+            <i class="fas fa-shield-alt text-2xl mb-3" style="color: var(--info);"></i>
+            <h3 class="tiempos text-lg font-bold mb-2">防护策略</h3>
+            <p class="text-sm text-gray-600">个人与社会层面的协同治理体系构建</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Introduction Section -->
+      <section id="introduction" class="mb-16">
+        <h2 class="tiempos text-3xl font-bold mb-8" style="color: var(--primary);">引言：当心理学披上伪科学的外衣</h2>
+
+        <div class="highlight-box">
+          <p class="text-lg leading-relaxed">
+            <strong>伪心理学（Pseudopsychology）</strong>是指那些声称具有科学基础、遵循心理学原理，但实际上缺乏实证证据或其理论体系未被主流心理学界所接受的理论或实践。它通过利用模糊描述、伪装科学权威、贩卖焦虑和提供虚假捷径等典型套路，巧妙地编织认知陷阱，误导公众。
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mt-12">
+          <div>
+            <h3 class="tiempos text-xl font-bold mb-4" style="color: var(--accent);">定义与界定</h3>
+            <p class="text-gray-700 leading-relaxed mb-4">
+              伪心理学源自希腊语前缀"pseudo-"（意为"假的"或"欺骗性的"）和"psychology"<a href="https://www.kimi.com/artifact/19b759e4-fdc2-82a9-8000-04c3ba34e3a2?version=F5LX2I#ref-257" class="citation-link">[257]</a>。它指的是那些声称基于心理学原理、具有科学性，但实际上缺乏经验证据支持或其理论基础未被主流心理学界所接受的实践、理论或信仰体系<a href="https://www.kimi.com/artifact/19b759e4-fdc2-82a9-8000-04c3ba34e3a2?version=F5LX2I#ref-259" class="citation-link">[259]</a>。
+            </p>
+            <p class="text-gray-700 leading-relaxed">
+              这些理论或实践常常披着科学的外衣，使用看似专业的术语和复杂的理论框架，但其核心主张并未经过严格的科学方法检验，例如可重复的实验、同行评议和批判性审查<a href="https://www.kimi.com/artifact/19b759e4-fdc2-82a9-8000-04c3ba34e3a2?version=F5LX2I#ref-260" class="citation-link">[260]</a>。
+            </p>
+          </div>
+          <div>
+            <h3 class="tiempos text-xl font-bold mb-4" style="color: var(--accent);">根本区别</h3>
+            <p class="text-gray-700 leading-relaxed mb-4">
+              伪心理学与科学心理学的根本区别在于其是否遵循科学方法。科学心理学建立在严谨的实证研究之上，其理论需要通过可重复的实验来验证，并接受同行专家的严格审查<a href="https://www.kimi.com/artifact/19b759e4-fdc2-82a9-8000-04c3ba34e3a2?version=F5LX2I#ref-260" class="citation-link">[260]</a>。
+            </p>
+            <p class="text-gray-700 leading-relaxed">
+              而真正的心理学是一门科学，其理论和实践都建立在可观察、可测量和可重复的实证证据之上。心理学家通过严谨的实验设计、统计分析和同行评议来构建和验证理论。
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <div class="section-divider"></div>
+
+      <!-- History Section -->
+      <section id="history" class="mb-16">
+        <h2 class="tiempos text-3xl font-bold mb-8" style="color: var(--primary);">历史脉络：从颅相学到量子心理学</h2>
+
+        <p class="text-lg text-gray-700 leading-relaxed mb-8">
+          伪心理学的历史并非现代社会的特有产物，其根源深植于人类试图理解自身心智与行为的漫长历程中。从古代朴素的观相术，到近代披上科学外衣的颅相学，再到当代利用前沿科学术语包装的神经语言程序学（NLP）和量子心理学，伪心理学始终如影随形。
+        </p>
+
+        <!-- Historical Timeline -->
+        <div class="relative">
+          <div class="absolute left-4 top-0 bottom-0 w-0.5 bg-gradient-to-b from-primary to-secondary"></div>
+
+          <!-- 19th Century -->
+          <div class="relative mb-12">
+            <div class="absolute left-0 w-8 h-8 rounded-full bg-primary flex items-center justify-center">
+              <span class="text-white text-sm font-bold">19</span>
+            </div>
+            <div class="ml-12">
+              <h3 class="tiempos text-2xl font-bold mb-4" style="color: var(--primary);">19世纪：科学外衣下的迷思</h3>
+              <p class="text-gray-700 leading-relaxed mb-4">
+                19世纪是科学理性主义高歌猛进的时代，也是伪科学思潮空前繁荣的时期。许多伪心理学理论打着"科学"的旗号，试图通过观察、测量和分类等看似严谨的方法，来揭示人类性格、智力和命运的"奥秘"。
+              </p>
+
+              <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-8">
+                <div class="bento-card">
+                  <h4 class="font-bold mb-3" style="color: var(--accent);">颅相学 (Phrenology)</h4>
+                  <p class="text-sm text-gray-600 mb-3">
+                    由弗朗茨·约瑟夫·加尔创立，认为通过观察和触摸头骨上的隆起和凹陷，可以推断出一个人的心理官能强弱<a href="https://www.kimi.com/artifact/19b759e4-fdc2-82a9-8000-04c3ba34e3a2?version=F5LX2I#ref-395" class="citation-link">[395]</a>。
+                  </p>
+                  <div class="text-xs text-gray-500">
+                    <i class="fas fa-skull mr-1"></i>头骨上的性格地图
+                  </div>
+                </div>
+
+                <div class="bento-card">
+                  <h4 class="font-bold mb-3" style="color: var(--accent);">面相学 (Physiognomy)</h4>
+                  <p class="text-sm text-gray-600 mb-3">
+                    试图通过面部特征来推断内在性格和智力的伪科学，认为人的面部特征与其性格、道德品质存在固定关联。
+                  </p>
+                  <div class="text-xs text-gray-500">
+                    <i class="fas fa-user mr-1"></i>以貌取人的"科学"
+                  </div>
+                </div>
+
+                <div class="bento-card">
+                  <h4 class="font-bold mb-3" style="color: var(--accent);">手相学与笔迹学</h4>
+                  <p class="text-sm text-gray-600 mb-3">
+                    通过解读手掌纹路和笔迹来揭示性格和未来，尽管缺乏科学基础但在19世纪及以后广泛流行<a href="https://www.kimi.com/artifact/19b759e4-fdc2-82a9-8000-04c3ba34e3a2?version=F5LX2I#ref-400" class="citation-link">[400]</a>。
+                  </p>
+                  <div class="text-xs text-gray-500">
+                    <i class="fas fa-hand-paper mr-1"></i>身体痕迹的解读
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 20th Century -->
+          <div class="relative mb-12">
+            <div class="absolute left-0 w-8 h-8 rounded-full bg-accent flex items-center justify-center">
+              <span class="text-white text-sm font-bold">20</span>
+            </div>
+            <div class="ml-12">
+              <h3 class="tiempos text-2xl font-bold mb-4" style="color: var(--accent);">20世纪：现代化与商业化</h3>
+              <p class="text-gray-700 leading-relaxed mb-6">
+                进入20世纪，伪心理学并未消亡，而是以一种更隐蔽、更复杂的形式继续存在和发展。它们开始借鉴现代心理学的一些概念和术语，与商业营销、个人成长产业紧密结合。
+              </p>
+
+              <div class="space-y-6">
+                <div class="bento-card">
+                  <h4 class="font-bold mb-3" style="color: var(--primary);">精神分析学的争议</h4>
+                  <p class="text-sm text-gray-600 mb-3">
+                    弗洛伊德创立的精神分析学是20世纪最具影响力的思想流派之一，但其科学地位一直备受争议<a href="https://www.kimi.com/artifact/19b759e4-fdc2-82a9-8000-04c3ba34e3a2?version=F5LX2I#ref-411" class="citation-link">[411]</a>。许多核心概念难以被操作化定义和实证检验。
+                  </p>
+                </div>
+
+                <div class="bento-card">
+                  <h4 class="font-bold mb-3" style="color: var(--primary);">新时代运动的兴起</h4>
+                  <p class="text-sm text-gray-600 mb-3">
+                    反射疗法、水晶疗愈等另类疗愈方法开始流行，它们都依赖于无法被科学仪器检测的、超自然的概念<a href="https://www.kimi.com/artifact/19b759e4-fdc2-82a9-8000-04c3ba34e3a2?version=F5LX2I#ref-375" class="citation-link">[375]</a>。
+                  </p>
+                </div>
+
+                <div class="bento-card">
+                  <h4 class="font-bold mb-3" style="color: var(--primary);">MBTI与九型人格</h4>
+                  <p class="text-sm text-gray-600 mb-3">
+                    这两种商业化的人格分类系统提供了一种简单、直观的框架，但大量研究表明其信度和效度都很低<a href="https://www.kimi.com/artifact/19b759e4-fdc2-82a9-8000-04c3ba34e3a2?version=F5LX2I#ref-368" class="citation-link">[368]</a>。
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 21st Century -->
+          <div class="relative">
+            <div class="absolute left-0 w-8 h-8 rounded-full bg-info flex items-center justify-center">
+              <span class="text-white text-sm font-bold">21</span>
+            </div>
+            <div class="ml-12">
+              <h3 class="tiempos text-2xl font-bold mb-4" style="color: var(--info);">当代新形态：前沿科学术语的包装</h3>
+              <p class="text-gray-700 leading-relaxed mb-6">
+                进入21世纪，伪心理学与时俱进，开始盗用神经科学和量子物理学等前沿科学的概念来为自己背书，形成了更具迷惑性的新形态。
+              </p>
+
+              <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="bento-card">
+                  <h4 class="font-bold mb-3" style="color: var(--info);">神经语言程序学 (NLP)</h4>
+                  <p class="text-sm text-gray-600 mb-3">
+                    声称通过改变语言模式和感知方式可以重新"编程"大脑，但其理论基础非常薄弱，缺乏科学支持<a href="https://www.kimi.com/artifact/19b759e4-fdc2-82a9-8000-04c3ba34e3a2?version=F5LX2I#ref-369" class="citation-link">[369]</a>。
+                  </p>
+                </div>
+
+                <div class="bento-card">
+                  <h4 class="font-bold mb-3" style="color: var(--info);">水晶疗愈</h4>
+                  <p class="text-sm text-gray-600 mb-3">
+                    声称水晶具有独特的"振动频率"可以与人身体的能量场共振，但完全违背了现代物理学的基本原理。
+                  </p>
+                </div>
+
+                <div class="bento-card">
+                  <h4 class="font-bold mb-3" style="color: var(--info);">量子心理学</h4>
+                  <p class="text-sm text-gray-600 mb-3">
+                    试图将量子力学概念应用到心理学领域，是对量子力学彻头彻尾的误读和滥用<a href="https://www.kimi.com/artifact/19b759e4-fdc2-82a9-8000-04c3ba34e3a2?version=F5LX2I#ref-370" class="citation-link">[370]</a>。
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="section-divider"></div>
+
+      <!-- Mechanisms Section -->
+      <section id="mechanisms" class="mb-16">
+        <h2 class="tiempos text-3xl font-bold mb-8" style="color: var(--primary);">典型套路：如何编织认知陷阱</h2>
+
+        <div class="highlight-box mb-8">
+          <p class="text-lg leading-relaxed">
+            伪心理学之所以能够大行其道，并非因为它们具有真正的价值，而是因为它们精心设计了一系列"套路"，巧妙地利用了人类固有的认知偏差、情感需求和社会心理。这些套路就像精心布置的陷阱，让人们在不知不觉中陷入其中。
+          </p>
+        </div>
+
+        <!-- Cognitive Biases -->
+        <div class="mb-12">
+          <h3 class="tiempos text-2xl font-bold mb-6" style="color: var(--accent);">利用认知偏差与心理捷径</h3>
+
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div class="bento-card">
+              <h4 class="font-bold mb-4" style="color: var(--primary);">
+                <i class="fas fa-mask mr-2"></i>巴纳姆效应
+              </h4>
+              <p class="text-gray-700 leading-relaxed mb-4">
+                巴纳姆效应是指人们倾向于相信那些模糊、普遍、适用于大多数人的性格描述是专门针对自己的，并且非常准确<a href="https://www.kimi.com/artifact/19b759e4-fdc2-82a9-8000-04c3ba34e3a2?version=F5LX2I#ref-170" class="citation-link">[170]</a>。心理学家伯特伦·福勒的经典实验证明了这一效应的强大。
+              </p>
+              <div class="bg-gray-50 p-4 rounded-lg">
+                <p class="text-sm text-gray-600 italic">
+                  "你有时非常外向、亲和、善于交际，而有时又内向、谨慎、有所保留。你为自己是一个独立思考者而自豪，在没有充分证据的情况下不会接受他人的说法。"
+                </p>
+                <p class="text-xs text-gray-500 mt-2">— 典型的巴纳姆式描述</p>
+              </div>
+            </div>
+
+            <div class="bento-card">
+              <h4 class="font-bold mb-4" style="color: var(--primary);">
+                <i class="fas fa-filter mr-2"></i>确认偏误
+              </h4>
+              <p class="text-gray-700 leading-relaxed mb-4">
+                确认偏误是指人们倾向于寻找、解释、关注和记住那些能够证实自己既有信念的信息，而忽略或贬低那些与自己信念相悖的信息。伪心理学通过提供模棱两可的"证据"，让信徒们自己去"证实"其理论的正确性。
+              </p>
+              <div class="space-y-2">
+                <div class="flex items-center text-sm text-gray-600">
+                  <i class="fas fa-check-circle text-green-500 mr-2"></i>
+                  只关注符合信念的信息
+                </div>
+                <div class="flex items-center text-sm text-gray-600">
+                  <i class="fas fa-times-circle text-red-500 mr-2"></i>
+                  忽略或贬低相反证据
+                </div>
+                <div class="flex items-center text-sm text-gray-600">
+                  <i class="fas fa-sync-alt text-blue-500 mr-2"></i>
+                  自我强化的信息闭环
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Scientific Disguise -->
+        <div class="mb-12">
+          <h3 class="tiempos text-2xl font-bold mb-6" style="color: var(--accent);">伪装科学性的常用手段</h3>
+
+          <div class="space-y-6">
+            <div class="bento-card">
+              <h4 class="font-bold mb-4 flex items-center" style="color: var(--primary);">
+                <i class="fas fa-flask mr-2"></i>引用"最新研究"与"科学证明"
+              </h4>
+              <p class="text-gray-700 leading-relaxed mb-4">
+                伪心理学传播者最喜欢声称自己的理论得到了"最新研究"或"科学证明"的支持<a href="https://www.kimi.com/artifact/19b759e4-fdc2-82a9-8000-04c3ba34e3a2?version=F5LX2I#ref-184" class="citation-link">[184]</a>。然而，这些所谓的"研究"往往是子虚乌有，或者是对真实研究的曲解和断章取义。
+              </p>
+              <div class="bg-yellow-50 border-l-4 border-yellow-400 p-4">
+                <p class="text-sm text-gray-700">
+                  <strong>案例：</strong>一位TikTok创作者声称"最新科学"表明穿黑色衣服会对情绪产生负面影响，但查证后发现该研究只是探讨了颜色与文化的关系，并未得出相关结论<a href="https://www.kimi.com/artifact/19b759e4-fdc2-82a9-8000-04c3ba34e3a2?version=F5LX2I#ref-202" class="citation-link">[202]</a>。
+                </p>
+              </div>
+            </div>
+
+            <div class="bento-card">
+              <h4 class="font-bold mb-4 flex items-center" style="color: var(--primary);">
+                <i class="fas fa-brain mr-2"></i>使用专业术语与复杂理论
+              </h4>
+              <p class="text-gray-700 leading-relaxed mb-4">
+                为了让理论听起来更"高大上"，伪心理学常常滥用或生造一些听起来很专业的术语。这些术语往往来自神经科学、量子力学等领域，但在伪心理学的语境下意义被完全扭曲。
+              </p>
+              <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mt-4">
+                <div class="text-center p-3 bg-gray-50 rounded">
+                  <i class="fas fa-atom text-xl text-blue-500 mb-2"></i>
+                  <p class="text-xs font-medium">量子纠缠</p>
+                </div>
+                <div class="text-center p-3 bg-gray-50 rounded">
+                  <i class="fas fa-eye text-xl text-green-500 mb-2"></i>
+                  <p class="text-xs font-medium">观察者效应</p>
+                </div>
+                <div class="text-center p-3 bg-gray-50 rounded">
+                  <i class="fas fa-microchip text-xl text-purple-500 mb-2"></i>
+                  <p class="text-xs font-medium">神经编程</p>
+                </div>
+                <div class="text-center p-3 bg-gray-50 rounded">
+                  <i class="fas fa-bolt text-xl text-yellow-500 mb-2"></i>
+                  <p class="text-xs font-medium">能量场</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="section-divider"></div>
+
+      <!-- Critical Thinking Section -->
+      <section id="critical-thinking" class="mb-16">
+        <h2 class="tiempos text-3xl font-bold mb-8" style="color: var(--primary);">识破伪心理学陷阱：培养批判性思维</h2>
+
+        <div class="highlight-box mb-8">
+          <p class="text-lg leading-relaxed">
+            在伪心理学泛滥的时代，培养批判性思维是保护我们免受其害的最重要的武器。批判性思维不仅仅是对信息的简单质疑，更是一种系统性的、有目的的思考方式，它要求我们运用逻辑、证据和科学原则来评估各种主张。
+          </p>
+        </div>
+
+        <!-- Scientific Philosophy -->
+        <div class="mb-12">
+          <h3 class="tiempos text-2xl font-bold mb-6" style="color: var(--accent);">科学哲学的审视</h3>
+
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div class="bento-card">
+              <h4 class="font-bold mb-4" style="color: var(--primary);">
+                <i class="fas fa-search mr-2"></i>证伪主义原则
+              </h4>
+              <p class="text-gray-700 leading-relaxed mb-3">
+                卡尔·波普尔提出的证伪主义是区分科学与伪科学的关键标准。一个理论如果无法被任何可能的观察或实验所证伪，那么它就不是科学理论<a href="https://www.kimi.com/artifact/19b759e4-fdc2-82a9-8000-04c3ba34e3a2?version=F5LX2I#ref-12" class="citation-link">[12]</a>。
+              </p>
+              <div class="text-sm text-gray-600">
+                <strong>关键问题：</strong>这个理论是否可能被证明是错误的？
+              </div>
+            </div>
+
+            <div class="bento-card">
+              <h4 class="font-bold mb-4" style="color: var(--primary);">
+                <i class="fas fa-chart-bar mr-2"></i>实证证据
+              </h4>
+              <p class="text-gray-700 leading-relaxed mb-3">
+                科学理论必须建立在坚实的实证证据之上，并且其结论需要经过同行评议和独立验证。伪心理学往往缺乏可靠的实证证据<a href="https://www.kimi.com/artifact/19b759e4-fdc2-82a9-8000-04c3ba34e3a2?version=F5LX2I#ref-299" class="citation-link">[299]</a>。
+              </p>
+              <div class="text-sm text-gray-600">
+                <strong>关键问题：</strong>证据是如何收集的？是否可重复？
+              </div>
+            </div>
+
+            <div class="bento-card">
+              <h4 class="font-bold mb-4" style="color: var(--primary);">
+                <i class="fas fa-arrows-alt-h mr-2"></i>相关性与因果性
+              </h4>
+              <p class="text-gray-700 leading-relaxed mb-3">
+                伪心理学常常混淆相关性与因果性。两个变量相关并不意味着一个导致另一个的变化。科学心理学会通过控制实验来排除其他变量的干扰。
+              </p>
+              <div class="text-sm text-gray-600">
+                <strong>关键问题：</strong>是否存在第三个变量影响结果？
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Red Flags Table -->
+        <div class="mb-12">
+          <h3 class="tiempos text-2xl font-bold mb-6" style="color: var(--accent);">识别伪心理学的"红旗"</h3>
+
+          <div class="overflow-x-auto">
+            <table class="w-full bg-white rounded-lg shadow-sm border border-gray-200">
+              <thead class="bg-gray-50">
+                <tr>
+                  <th class="px-6 py-4 text-left font-bold" style="color: var(--primary);">红旗信号</th>
+                  <th class="px-6 py-4 text-left font-bold" style="color: var(--primary);">描述与示例</th>
+                </tr>
+              </thead>
+              <tbody class="divide-y divide-gray-200">
+                <tr>
+                  <td class="px-6 py-4 font-medium text-gray-900">过度承诺与绝对化语言</td>
+                  <td class="px-6 py-4 text-gray-700">声称能够"快速"、"轻松"、"100%"地解决复杂问题。例如，"一个技巧让你永远摆脱焦虑"。</td>
+                </tr>
+                <tr>
+                  <td class="px-6 py-4 font-medium text-gray-900">缺乏同行评议与独立验证</td>
+                  <td class="px-6 py-4 text-gray-700">其理论或产品从未在权威的、经过同行评议的学术期刊上发表。</td>
+                </tr>
+                <tr>
+                  <td class="px-6 py-4 font-medium text-gray-900">对质疑和批评的敌意</td>
+                  <td class="px-6 py-4 text-gray-700">将批评者视为"无知的"、"被蒙蔽的"，甚至进行人身攻击。</td>
+                </tr>
+                <tr>
+                  <td class="px-6 py-4 font-medium text-gray-900">滥用科学术语</td>
+                  <td class="px-6 py-4 text-gray-700">使用"神经"、"量子"、"能量场"等听起来很专业的术语，但用法与科学含义不符。</td>
+                </tr>
+                <tr>
+                  <td class="px-6 py-4 font-medium text-gray-900">诉诸权威而非证据</td>
+                  <td class="px-6 py-4 text-gray-700">强调创始人或推广者的"大师"身份、与名人的关系，而不是提供客观证据。</td>
+                </tr>
+                <tr>
+                  <td class="px-6 py-4 font-medium text-gray-900">贩卖焦虑与提供捷径</td>
+                  <td class="px-6 py-4 text-gray-700">首先夸大问题的严重性，制造焦虑感，然后提供一个简单的"解决方案"。</td>
+                </tr>
+                <tr>
+                  <td class="px-6 py-4 font-medium text-gray-900">依赖轶事证据</td>
+                  <td class="px-6 py-4 text-gray-700">用"用户见证"、"成功案例"等轶事来代替大规模的科学实验。</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <div class="section-divider"></div>
+
+      <!-- Transmission Section -->
+      <section id="transmission" class="mb-16">
+        <h2 class="tiempos text-3xl font-bold mb-8" style="color: var(--primary);">传播特征：社交媒体时代的病毒式扩散</h2>
+
+        <div class="highlight-box mb-8">
+          <p class="text-lg leading-relaxed">
+            在信息时代，特别是随着社交媒体和短视频平台的崛起，伪心理学的传播方式发生了根本性的变化。它不再仅仅依赖于书籍、讲座等传统媒介，而是借助算法的推荐、网红的背书和病毒式的分享，以前所未有的速度和广度渗透到社会的各个角落。
+          </p>
+        </div>
+
+        <!-- Algorithm Amplification -->
+        <div class="mb-12">
+          <h3 class="tiempos text-2xl font-bold mb-6" style="color: var(--accent);">社交媒体算法的助推作用</h3>
+
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div class="space-y-6">
+              <div class="bento-card">
+                <h4 class="font-bold mb-4" style="color: var(--primary);">
+                  <i class="fas fa-robot mr-2"></i>算法如何放大情绪化内容
+                </h4>
+                <p class="text-gray-700 leading-relaxed">
+                  社交媒体算法会根据用户的行为数据构建兴趣画像，不断推送相似内容，创造"回音壁效应"和"信息茧房"。情绪化、极端化的内容更容易被识别为"高互动"内容，从而获得更多流量推荐。
+                </p>
+              </div>
+
+              <div class="bento-card">
+                <h4 class="font-bold mb-4" style="color: var(--primary);">
+                  <i class="fas fa-video mr-2"></i>短视频平台的传播机制
+                </h4>
+                <p class="text-gray-700 leading-relaxed">
+                  以TikTok为代表的短视频平台为伪心理学传播提供了绝佳土壤。算法推荐机制使内容能够病毒式传播，60秒以内的视频内容简单易懂，非常适合碎片化消费<a href="https://www.kimi.com/artifact/19b759e4-fdc2-82a9-8000-04c3ba34e3a2?version=F5LX2I#ref-355" class="citation-link">[355]</a>。
+                </p>
+              </div>
+            </div>
+
+            <div class="relative">
+              <img src="./伪心理学：认知陷阱_files/2a95d4e9a9dd272be3a484615b3db6fdf70f75df.jpg" alt="社交媒体算法推荐内容的抽象概念图" class="w-full h-64 object-cover rounded-xl shadow-lg" size="medium" aspect="wide" query="社交媒体算法抽象概念" referrerpolicy="no-referrer" data-modified="1" data-score="0.00">
+              <div class="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent rounded-xl"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- KOL Marketing -->
+        <div class="mb-12">
+          <h3 class="tiempos text-2xl font-bold mb-6" style="color: var(--accent);">网红KOL的背书与营销</h3>
+
+          <div class="space-y-6">
+            <div class="bento-card">
+              <h4 class="font-bold mb-4" style="color: var(--primary);">
+                <i class="fas fa-star mr-2"></i>伪心理学网红的"人设"打造
+              </h4>
+              <p class="text-gray-700 leading-relaxed mb-4">
+                伪心理学网红通常会打造"专家"或"导师"人设。他们可能会在简介中标注"心理咨询师"、"人生教练"等头衔，即使这些头衔可能并没有得到权威机构的认证。
+              </p>
+              <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mt-4">
+                <div class="text-center p-3 bg-blue-50 rounded-lg">
+                  <i class="fas fa-user-graduate text-blue-500 text-xl mb-2"></i>
+                  <p class="text-xs font-medium">专家人设</p>
+                </div>
+                <div class="text-center p-3 bg-green-50 rounded-lg">
+                  <i class="fas fa-heart text-green-500 text-xl mb-2"></i>
+                  <p class="text-xs font-medium">情感连接</p>
+                </div>
+                <div class="text-center p-3 bg-purple-50 rounded-lg">
+                  <i class="fas fa-camera text-purple-500 text-xl mb-2"></i>
+                  <p class="text-xs font-medium">精美内容</p>
+                </div>
+                <div class="text-center p-3 bg-yellow-50 rounded-lg">
+                  <i class="fas fa-trophy text-yellow-500 text-xl mb-2"></i>
+                  <p class="text-xs font-medium">成功案例</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="bento-card">
+              <h4 class="font-bold mb-4" style="color: var(--primary);">
+                <i class="fas fa-shopping-cart mr-2"></i>商业变现模式
+              </h4>
+              <p class="text-gray-700 leading-relaxed">
+                伪心理学网红通过售卖线上课程、电子书、咨询服务，或者与品牌合作推广产品来赚取收入。由于粉丝对他们的信任，这些商业活动往往非常成功，但产品和服务大多缺乏科学依据。
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Case Study -->
+        <div class="bento-card">
+          <h3 class="tiempos text-xl font-bold mb-4" style="color: var(--primary);">
+            <i class="fas fa-microscope mr-2"></i>案例分析：TikTok上的伪心理学现象
+          </h3>
+          <p class="text-gray-700 leading-relaxed mb-4">
+            面对TikTok上泛滥的伪心理学，心理学教授伊娜·卡涅夫斯基挺身而出，用自己的专业知识进行批判和反击<a href="https://www.kimi.com/artifact/19b759e4-fdc2-82a9-8000-04c3ba34e3a2?version=F5LX2I#ref-347" class="citation-link">[347]</a>。她在TikTok上开设账号，专门制作视频驳斥那些流传甚广的心理学谣言。
+          </p>
+
+          <div class="bg-gray-50 p-4 rounded-lg">
+            <h4 class="font-bold mb-3">伪心理学内容的典型公式：</h4>
+            <ol class="list-decimal list-inside space-y-2 text-sm text-gray-700">
+              <li><strong>吸引眼球的标题：</strong>使用"心理学说"、"科学证明"等词语</li>
+              <li><strong>普遍化的开场：</strong>从大多数人都经历过的场景入手</li>
+              <li><strong>引用"科学"背书：</strong>声称来自"最新研究"但很少提供来源</li>
+              <li><strong>简单化的结论：</strong>给出简单、绝对、易于传播的结论</li>
+              <li><strong>利用认知偏差：</strong>大量使用巴纳姆效应等心理学技巧</li>
+            </ol>
+          </div>
+        </div>
+      </section>
+
+      <div class="section-divider"></div>
+
+      <!-- Analysis Section -->
+      <section id="analysis" class="mb-16">
+        <h2 class="tiempos text-3xl font-bold mb-8" style="color: var(--primary);">为何流行：多学科视角的深度剖析</h2>
+
+        <div class="highlight-box mb-8">
+          <p class="text-lg leading-relaxed">
+            伪心理学的流行并非偶然，它是一个复杂的社会文化现象，其背后有着深刻的心理学、社会学和传播学根源。只有从多学科视角进行深度剖析，我们才能更全面地理解伪心理学为何能如此根深蒂固地存在于现代社会。
+          </p>
+        </div>
+
+        <!-- Psychology Perspective -->
+        <div class="mb-12">
+          <h3 class="tiempos text-2xl font-bold mb-6" style="color: var(--accent);">心理学视角：满足人类内在需求</h3>
+
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div class="bento-card">
+              <div class="text-center mb-4">
+                <i class="fas fa-shield-alt text-3xl text-blue-500"></i>
+              </div>
+              <h4 class="font-bold text-center mb-3">确定性与控制感</h4>
+              <p class="text-gray-700 text-sm leading-relaxed">
+                在一个充满不确定性的世界里，人们天生渴望获得确定性和控制感。伪心理学通过提供简单、明确的答案，满足了这种心理需求。
+              </p>
+            </div>
+
+            <div class="bento-card">
+              <div class="text-center mb-4">
+                <i class="fas fa-puzzle-piece text-3xl text-green-500"></i>
+              </div>
+              <h4 class="font-bold text-center mb-3">简化认知需求</h4>
+              <p class="text-gray-700 text-sm leading-relaxed">
+                现代社会信息爆炸，人类大脑为了节省认知资源，天生倾向于寻求简化的认知框架来理解世界。伪心理学提供了这种"捷径"。
+              </p>
+            </div>
+
+            <div class="bento-card">
+              <div class="text-center mb-4">
+                <i class="fas fa-user-circle text-3xl text-purple-500"></i>
+              </div>
+              <h4 class="font-bold text-center mb-3">自我探索诉求</h4>
+              <p class="text-gray-700 text-sm leading-relaxed">
+                "我是谁？"是一个困扰人类的终极问题。伪心理学通过提供看似深刻的"人格画像"，帮助人们"了解自己"。
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Sociology Perspective -->
+        <div class="mb-12">
+          <h3 class="tiempos text-2xl font-bold mb-6" style="color: var(--accent);">社会学视角：社会结构与集体焦虑</h3>
+
+          <div class="space-y-6">
+            <div class="bento-card">
+              <h4 class="font-bold mb-4" style="color: var(--primary);">
+                <i class="fas fa-chart-line mr-2"></i>社会转型期的压力与不确定性
+              </h4>
+              <p class="text-gray-700 leading-relaxed">
+                在社会快速转型、经济压力增大的时期，人们普遍会感受到更大的压力和不确定性。失业、房价、教育等问题都可能引发集体性焦虑。伪心理学通过贩卖焦虑和提供希望，成为了一些人应对现实压力的心理"避风港"。
+              </p>
+            </div>
+
+            <div class="bento-card">
+              <h4 class="font-bold mb-4" style="color: var(--primary);">
+                <i class="fas fa-shopping-bag mr-2"></i>消费主义文化与"自我提升"产业
+              </h4>
+              <p class="text-gray-700 leading-relaxed">
+                当代社会消费主义盛行，许多商品和服务都被包装成实现"自我提升"的必需品。伪心理学正是这个庞大产业中的重要组成部分，从昂贵的NLP培训课程到各种人格测试的付费解读。
+              </p>
+            </div>
+
+            <div class="bento-card">
+              <h4 class="font-bold mb-4" style="color: var(--primary);">
+                <i class="fas fa-users mr-2"></i>社群归属与身份政治
+              </h4>
+              <p class="text-gray-700 leading-relaxed">
+                在原子化的现代社会，人们渴望社群归属。伪心理学通过构建"我们"与"他们"的对立，为信徒们提供了一个具有高度认同感和凝聚力的社群，满足人们对身份认同和社群归属的深层渴望。
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Communication Perspective -->
+        <div class="mb-12">
+          <h3 class="tiempos text-2xl font-bold mb-6" style="color: var(--accent);">传播学视角：信息生态与媒介素养</h3>
+
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div class="space-y-6">
+              <div class="bento-card">
+                <h4 class="font-bold mb-4" style="color: var(--primary);">
+                  <i class="fas fa-newspaper mr-2"></i>后真相时代的信息特征
+                </h4>
+                <p class="text-gray-700 leading-relaxed">
+                  我们生活在"后真相"时代，情感和个人信念比客观事实更能影响公众舆论。社交媒体上的信息传播往往更注重情绪的煽动和观点的共鸣，而非事实的核查。
+                </p>
+              </div>
+
+              <div class="bento-card">
+                <h4 class="font-bold mb-4" style="color: var(--primary);">
+                  <i class="fas fa-broadcast-tower mr-2"></i>媒介即讯息
+                </h4>
+                <p class="text-gray-700 leading-relaxed">
+                  传播学家麦克卢汉的"媒介即讯息"理论指出，媒介本身决定了我们感知世界的方式。社交媒体平台的算法推荐机制决定了哪些内容能够被我们看到。
+                </p>
+              </div>
+            </div>
+
+            <div class="relative">
+              <img src="./伪心理学：认知陷阱_files/ede1608af71c606e30d238ebbfd26ebdac12299a.jpg" alt="信息传播网络抽象示意图" class="w-full h-64 object-cover rounded-xl shadow-lg" size="medium" aspect="wide" query="信息传播网络 抽象" referrerpolicy="no-referrer" data-modified="1" data-score="0.00">
+              <div class="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent rounded-xl"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="section-divider"></div>
+
+      <!-- Action Section -->
+      <section id="action" class="mb-16">
+        <h2 class="tiempos text-3xl font-bold mb-8" style="color: var(--primary);">应对伪心理学的正确姿势：个人与社会的行动指南</h2>
+
+        <div class="highlight-box mb-8">
+          <p class="text-lg leading-relaxed">
+            面对伪心理学在当代社会的泛滥，我们不能仅仅停留在批判和谴责，更需要采取积极、有效的行动。应对这一挑战，需要个人和社会两个层面的共同努力，构建一个多方协同的治理体系。
+          </p>
+        </div>
+
+        <!-- Personal Level -->
+        <div class="mb-12">
+          <h3 class="tiempos text-2xl font-bold mb-6" style="color: var(--accent);">个人层面：提升媒介与科学素养</h3>
+
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div class="bento-card">
+              <div class="text-center mb-4">
+                <i class="fas fa-brain text-3xl text-blue-500"></i>
+              </div>
+              <h4 class="font-bold text-center mb-3">培养批判性思维</h4>
+              <p class="text-gray-700 text-sm leading-relaxed mb-3">
+                不盲从、不轻信，对任何信息都保持健康的怀疑精神。学会区分事实与观点、证据与轶事、相关性与因果性。
+              </p>
+              <div class="space-y-1 text-xs text-gray-600">
+                <div>• 多问"为什么"</div>
+                <div>• 寻找证据支持</div>
+                <div>• 检查逻辑一致性</div>
+              </div>
+            </div>
+
+            <div class="bento-card">
+              <div class="text-center mb-4">
+                <i class="fas fa-graduation-cap text-3xl text-green-500"></i>
+              </div>
+              <h4 class="font-bold text-center mb-3">学习基础知识</h4>
+              <p class="text-gray-700 text-sm leading-relaxed mb-3">
+                了解基础科学方法和心理学知识，如可证伪性、双盲实验、安慰剂效应等，看穿伪心理学常用的"套路"。
+              </p>
+              <div class="space-y-1 text-xs text-gray-600">
+                <div>• 科学方法原理</div>
+                <div>• 主流心理学理论</div>
+                <div>• 统计学基础知识</div>
+              </div>
+            </div>
+
+            <div class="bento-card">
+              <div class="text-center mb-4">
+                <i class="fas fa-user-md text-3xl text-purple-500"></i>
+              </div>
+              <h4 class="font-bold text-center mb-3">寻求专业帮助</h4>
+              <p class="text-gray-700 text-sm leading-relaxed mb-3">
+                面临心理困扰时，应该寻求循证的心理服务，选择经过科学验证的心理治疗方法，由专业资格的心理咨询师提供。
+              </p>
+              <div class="space-y-1 text-xs text-gray-600">
+                <div>• 循证实践</div>
+                <div>• 专业资质认证</div>
+                <div>• 科学验证的疗法</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Social Level -->
+        <div class="mb-12">
+          <h3 class="tiempos text-2xl font-bold mb-6" style="color: var(--accent);">社会层面：构建多方协同治理体系</h3>
+
+          <div class="space-y-6">
+            <div class="bento-card">
+              <h4 class="font-bold mb-4" style="color: var(--primary);">
+                <i class="fas fa-school mr-2"></i>教育普及：将批判性思维纳入国民教育
+              </h4>
+              <p class="text-gray-700 leading-relaxed mb-4">
+                教育是根本之策。从基础教育阶段开始，将批判性思维和科学素养的培养纳入课程体系。教会学生如何提出问题、搜集和评估证据、进行逻辑推理，比单纯灌输知识更为重要。
+              </p>
+              <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mt-4">
+                <div class="text-center p-3 bg-blue-50 rounded">
+                  <i class="fas fa-question-circle text-blue-500 text-xl mb-2"></i>
+                  <p class="text-xs font-medium">问题意识</p>
+                </div>
+                <div class="text-center p-3 bg-green-50 rounded">
+                  <i class="fas fa-search text-green-500 text-xl mb-2"></i>
+                  <p class="text-xs font-medium">证据评估</p>
+                </div>
+                <div class="text-center p-3 bg-purple-50 rounded">
+                  <i class="fas fa-project-diagram text-purple-500 text-xl mb-2"></i>
+                  <p class="text-xs font-medium">逻辑推理</p>
+                </div>
+                <div class="text-center p-3 bg-yellow-50 rounded">
+                  <i class="fas fa-lightbulb text-yellow-500 text-xl mb-2"></i>
+                  <p class="text-xs font-medium">创新思维</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="bento-card">
+              <h4 class="font-bold mb-4" style="color: var(--primary);">
+                <i class="fas fa-shield-alt mr-2"></i>平台监管：社交媒体的内容审核与责任界定
+              </h4>
+              <p class="text-gray-700 leading-relaxed mb-4">
+                社交媒体平台作为伪心理学传播的主要渠道，必须承担起相应的监管责任。平台应该完善内容审核机制，对明显违反科学常识、可能误导用户的伪心理学内容进行标记、限流或下架。
+              </p>
+              <div class="bg-gray-50 p-4 rounded-lg">
+                <h5 class="font-bold mb-2">平台责任措施：</h5>
+                <ul class="list-disc list-inside space-y-1 text-sm text-gray-600">
+                  <li>完善内容审核机制，结合AI和人工审核</li>
+                  <li>对伪科学内容进行标记和限流</li>
+                  <li>严格把关网红身份认证，防止虚假头衔</li>
+                  <li>在内容审核和言论自由间取得平衡</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="bento-card">
+              <h4 class="font-bold mb-4" style="color: var(--primary);">
+                <i class="fas fa-certificate mr-2"></i>行业标准：规范心理咨询与培训市场
+              </h4>
+              <p class="text-gray-700 leading-relaxed">
+                针对心理咨询和培训市场鱼龙混杂的现状，亟需建立和完善行业标准。行业协会和监管机构应该对心理咨询师的资质认证、培训内容、执业规范等进行严格管理，打击"挂羊头卖狗肉"的伪心理学培训机构。
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="section-divider"></div>
+
+      <!-- Conclusion Section -->
+      <section id="conclusion" class="mb-16">
+        <h2 class="tiempos text-3xl font-bold mb-8" style="color: var(--primary);">结论：在信息洪流中守护理性与真知</h2>
+
+        <div class="bento-card mb-8">
+          <p class="text-lg leading-relaxed mb-6">
+            在信息爆炸、观点纷杂的当代社会，伪心理学如同一个幽灵，不断变换着形态，利用人类固有的认知弱点和社会心理的裂缝，侵蚀着理性的根基。从19世纪试图通过头骨形状解读灵魂的颅相学，到21世纪在社交媒体上泛滥的、以"量子"或"神经"为噱头的心理学速成理论，伪心理学的历史是一部不断利用科学外衣包装非科学内核的历史。
+          </p>
+
+          <p class="text-lg leading-relaxed mb-6">
+            然而，伪心理学的流行并非不可战胜。它的克星，正是人类理性之光——<strong style="color: var(--primary);">批判性思维与科学方法</strong>。通过学习和运用科学哲学的基本原则，如可证伪性和实证标准，我们可以擦亮双眼，识别出伪心理学理论中的逻辑漏洞和证据缺失。
+          </p>
+
+          <div class="bg-gradient-to-r from-blue-50 to-purple-50 p-6 rounded-lg mb-6">
+            <h3 class="tiempos text-xl font-bold mb-4 text-center">应对伪心理学的关键策略</h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <div>
+                <h4 class="font-bold mb-3" style="color: var(--primary);">个人层面</h4>
+                <ul class="space-y-2 text-sm text-gray-700">
+                  <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i>提升媒介与科学素养</li>
+                  <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i>培养批判性思维</li>
+                  <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i>寻求循证心理服务</li>
+                  <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i>成为理性传播者</li>
+                </ul>
+              </div>
+              <div>
+                <h4 class="font-bold mb-3" style="color: var(--primary);">社会层面</h4>
+                <ul class="space-y-2 text-sm text-gray-700">
+                  <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i>教育普及批判性思维</li>
+                  <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i>加强平台内容监管</li>
+                  <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i>建立行业标准规范</li>
+                  <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i>构建健康信息生态</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <p class="text-lg leading-relaxed">
+            最终，识破和抵制伪心理学，不仅仅是为了避免被欺骗和浪费金钱，更是为了守护我们作为人类最宝贵的财富——<strong style="color: var(--primary);">独立思考和追求真知的能力</strong>。在这个充满不确定性的世界里，唯有理性和科学，才是我们照亮前路、走向未来的最可靠的灯塔。
+          </p>
+        </div>
+
+        <!-- Call to Action -->
+        <div class="text-center py-8">
+          <div class="inline-flex items-center space-x-4 px-8 py-4 bg-gradient-to-r from-primary to-accent text-white rounded-full">
+            <i class="fas fa-lightbulb text-2xl"></i>
+            <span class="tiempos text-lg font-bold">保持理性，追求真知</span>
+            <i class="fas fa-arrow-right text-2xl"></i>
+          </div>
+        </div>
+      </section>
+
+      <!-- References Section -->
+      <section class="mb-16">
+        <h2 class="tiempos text-2xl font-bold mb-8" style="color: var(--primary);">参考文献</h2>
+        <div class="bg-gray-50 p-6 rounded-lg">
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm">
+            <div id="ref-12" class="p-3 bg-white rounded">[12] <a href="https://www.hanspub.org/journal/paperinformation?paperid=71597" class="citation-link">卡尔·波普尔证伪主义原则研究</a>
+            </div>
+            <div id="ref-42" class="p-3 bg-white rounded">[42] <a href="https://en.wikipedia.org/wiki/History_of_pseudoscience" class="citation-link">History of pseudoscience - Wikipedia</a>
+            </div>
+            <div id="ref-163" class="p-3 bg-white rounded">[163] <a href="https://en.wikipedia.org/wiki/Neuro-linguistic_programming" class="citation-link">Neuro-linguistic programming - Wikipedia</a>
+            </div>
+            <div id="ref-170" class="p-3 bg-white rounded">[170] <a href="https://nesslabs.com/mbti" class="citation-link">MBTI, Carl Jung, and the Barnum Effect — Ness Labs</a>
+            </div>
+            <div id="ref-184" class="p-3 bg-white rounded">[184] <a href="https://language.chinadaily.com.cn/a/202108/12/WS6114df8da310efa1bd668717.html" class="citation-link">伪心理学传播分析 - China Daily</a>
+            </div>
+            <div id="ref-202" class="p-3 bg-white rounded">[202] <a href="https://mashable.com/article/tiktok-mental-health-therapist-psychology" class="citation-link">TikTok mental health therapist psychology - Mashable</a>
+            </div>
+            <div id="ref-212" class="p-3 bg-white rounded">[212] <a href="https://finance.sina.cn/2022-08-02/detail-imizirav6487637.d.html" class="citation-link">精神分析学的科学性问题 - Sina Finance</a>
+            </div>
+            <div id="ref-238" class="p-3 bg-white rounded">[238] <a href="https://neurolaunch.com/pseudo-psychology/" class="citation-link">Pseudo Psychology - NeuroLaunch</a>
+            </div>
+            <div id="ref-252" class="p-3 bg-white rounded">[252] <a href="http://donaldclarkplanb.blogspot.com/2006/11/nlp-trainings-shameful-fraudulent-cult.html" class="citation-link">NLP Training's Shameful Fraud - Donald Clark</a>
+            </div>
+            <div id="ref-257" class="p-3 bg-white rounded">[257] <a href="https://scales.arabpsychology.com/trm/pseudo-psychology-pseudopsychology/" class="citation-link">Pseudo Psychology Definition - Arab Psychology</a>
+            </div>
+            <div id="ref-259" class="p-3 bg-white rounded">[259] <a href="https://helpfulprofessor.com/pseudo-psychology/" class="citation-link">Pseudo Psychology Examples - Helpful Professor</a>
+            </div>
+            <div id="ref-260" class="p-3 bg-white rounded">[260] <a href="https://study.com/learn/lesson/pseudo-psychology-concept-examples.html" class="citation-link">Pseudo Psychology Concept &amp; Examples - Study.com</a>
+            </div>
+            <div id="ref-261" class="p-3 bg-white rounded">[261] <a href="https://psychology.town/general/psychology-vs-pseudo-sciences-differences/" class="citation-link">Psychology vs Pseudo Sciences - Psychology Town</a>
+            </div>
+            <div id="ref-273" class="p-3 bg-white rounded">[273] <a href="https://www.juguandian.com/blog_q/well/example-and-overview-of-a-phrenology-head-4111124_cn" class="citation-link">颅相学历史概述 - Ju Guan Dian</a>
+            </div>
+            <div id="ref-274" class="p-3 bg-white rounded">[274] <a href="https://m.douban.com/note/738914850/" class="citation-link">颅相学的社会影响 - Douban</a>
+            </div>
+            <div id="ref-283" class="p-3 bg-white rounded">[283] <a href="https://nesslabs.com/mbti" class="citation-link">MBTI的科学性问题 - Ness Labs</a>
+            </div>
+            <div id="ref-289" class="p-3 bg-white rounded">[289] <a href="https://baike.baidu.com/item/%E4%BC%AA%E7%A7%91%E5%AD%A6/92593" class="citation-link">伪科学 - Baidu Baike</a>
+            </div>
+            <div id="ref-296" class="p-3 bg-white rounded">[296] <a href="https://blog.csdn.net/psybrain/article/details/120886272" class="citation-link">笔迹学的心理学分析 - CSDN</a>
+            </div>
+            <div id="ref-299" class="p-3 bg-white rounded">[299] <a href="https://m.thepaper.cn/newsDetail_forward_32162454" class="citation-link">实证心理学研究 - The Paper</a>
+            </div>
+            <div id="ref-347" class="p-3 bg-white rounded">[347] <a href="https://www.inverse.com/input/features/dr-inna-kanevsky-psychology-professor-fact-checking-tiktok" class="citation-link">Dr. Inna Kanevsky Fact-Checking TikTok - Inverse</a>
+            </div>
+            <div id="ref-352" class="p-3 bg-white rounded">[352] <a href="https://www.familydoctor.cn/news/jiemi-xueshu-renshi-shejiao-meiti-shendu-weizao-tuiguang-buchong-291760.html" class="citation-link">学术人物社交媒体伪造推广 - Family Doctor</a>
+            </div>
+            <div id="ref-355" class="p-3 bg-white rounded">[355] <a href="https://www.microbook123.com/book/229" class="citation-link">TikTok算法机制分析 - Microbook</a>
+            </div>
+            <div id="ref-359" class="p-3 bg-white rounded">[359] <a href="https://mashable.com/article/tiktok-mental-health-therapist-psychology" class="citation-link">TikTok心理学内容分析 - Mashable</a>
+            </div>
+            <div id="ref-365" class="p-3 bg-white rounded">[365] <a href="https://www.quora.com/How-were-psychological-tests-like-the-Enneagram-and-Myers-Briggs-Type-Indicator-developed-Did-they-come-out-of-psychology-or-philosophy-What-is-their-scientific-validity" class="citation-link">MBTI与九型人格的发展 - Quora</a>
+            </div>
+            <div id="ref-368" class="p-3 bg-white rounded">[368] <a href="https://scottlilienfeld.com/wp-content/uploads/2021/01/Science-and-Pseudoscience-in-Clinical-Psychology-Second-Edition-by-Scott-O.-Lilienfeld-PhD-Steven-Jay-Lynn-PhD-Jeffrey-M.-Lohr-Phd-Carol-Tavris-PhD-z-lib.org_.pdf" class="citation-link">Science and Pseudoscience in Clinical Psychology</a>
+            </div>
+            <div id="ref-369" class="p-3 bg-white rounded">[369] <a href="https://en.wikipedia.org/wiki/Neuro-linguistic_programming" class="citation-link">NLP的科学性问题 - Wikipedia</a>
+            </div>
+            <div id="ref-370" class="p-3 bg-white rounded">[370] <a href="https://en.wikipedia.org/wiki/List_of_topics_characterized_as_pseudoscience" class="citation-link">量子心理学 - Wikipedia</a>
+            </div>
+            <div id="ref-371" class="p-3 bg-white rounded">[371] <a href="https://en.wikipedia.org/wiki/Phrenology" class="citation-link">Phrenology - Wikipedia</a>
+            </div>
+            <div id="ref-374" class="p-3 bg-white rounded">[374] <a href="https://www.mdpi.com/2077-1444/13/9/777" class="citation-link">新时代运动研究 - MDPI</a>
+            </div>
+            <div id="ref-375" class="p-3 bg-white rounded">[375] <a href="https://encyclopedia.pub/entry/29269" class="citation-link">Crystal Healing Encyclopedia</a>
+            </div>
+            <div id="ref-378" class="p-3 bg-white rounded">[378] <a href="https://en.wikipedia.org/wiki/History_of_pseudoscience" class="citation-link">History of Pseudoscience - Wikipedia</a>
+            </div>
+            <div id="ref-379" class="p-3 bg-white rounded">[379] <a href="https://www.redalyc.org/journal/5117/511766757024/html/" class="citation-link">精神分析学的科学性问题 - Redalyc</a>
+            </div>
+            <div id="ref-383" class="p-3 bg-white rounded">[383] <a href="https://vocus.cc/article/683e6e28fd89780001f3200e" class="citation-link">MBTI与九型人格分析 - Vocus</a>
+            </div>
+            <div id="ref-384" class="p-3 bg-white rounded">[384] <a href="https://m.36kr.com/p/1722858160129" class="citation-link">MBTI的商业化 - 36Kr</a>
+            </div>
+            <div id="ref-387" class="p-3 bg-white rounded">[387] <a href="https://hub.edubirdie.com/examples/phrenology-how-pseudoscience-defined-modern-science/" class="citation-link">Phrenology and Modern Science - EduBirdie</a>
+            </div>
+            <div id="ref-388" class="p-3 bg-white rounded">[388] <a href="https://www.verywellmind.com/what-is-phrenology-2795251" class="citation-link">What is Phrenology - Verywell Mind</a>
+            </div>
+            <div id="ref-389" class="p-3 bg-white rounded">[389] <a href="https://neurolaunch.com/timeline-therapy/" class="citation-link">Timeline Therapy - NeuroLaunch</a>
+            </div>
+            <div id="ref-391" class="p-3 bg-white rounded">[391] <a href="https://ephesians511blog.com/about/" class="citation-link">NLP的伪科学性质分析</a>
+            </div>
+            <div id="ref-392" class="p-3 bg-white rounded">[392] <a href="https://www.iflscience.com/how-dangerous-is-psychological-pseudoscience-71178" class="citation-link">How Dangerous is Psychological Pseudoscience - IFLScience</a>
+            </div>
+            <div id="ref-395" class="p-3 bg-white rounded">[395] <a href="https://en.wikipedia.org/wiki/Timeline_of_psychology" class="citation-link">Timeline of Psychology - Wikipedia</a>
+            </div>
+            <div id="ref-397" class="p-3 bg-white rounded">[397] <a href="https://theness.com/phrenology-history-of-a-pseudoscience/" class="citation-link">Phrenology: History of a Pseudoscience</a>
+            </div>
+            <div id="ref-400" class="p-3 bg-white rounded">[400] <a href="https://psychology.town/general/psychology-vs-pseudo-sciences-differences/" class="citation-link">Psychology vs Pseudo Sciences - Psychology Town</a>
+            </div>
+            <div id="ref-403" class="p-3 bg-white rounded">[403] <a href="https://encyclopedia.pub/entry/29269" class="citation-link">颅相学历史与影响 - Encyclopedia.pub</a>
+            </div>
+            <div id="ref-411" class="p-3 bg-white rounded">[411] <a href="https://www.redalyc.org/journal/5117/511766757024/html/" class="citation-link">精神分析学的争议性研究 - Redalyc</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <script>
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Highlight current section in TOC
+        const sections = document.querySelectorAll('section[id]');
+        const tocLinks = document.querySelectorAll('.toc-fixed a[href^="#"]');
+
+        function highlightCurrentSection() {
+            let currentSection = '';
+            sections.forEach(section => {
+                const rect = section.getBoundingClientRect();
+                if (rect.top <= 100 && rect.bottom >= 100) {
+                    currentSection = section.id;
+                }
+            });
+
+            tocLinks.forEach(link => {
+                link.classList.remove('font-bold', 'text-primary');
+                if (link.getAttribute('href') === `#${currentSection}`) {
+                    link.classList.add('font-bold', 'text-primary');
+                }
+            });
+        }
+
+        window.addEventListener('scroll', highlightCurrentSection);
+        highlightCurrentSection(); // Initial call
+    </script>
+  
+
+</body></html>
